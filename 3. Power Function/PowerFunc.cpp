@@ -1,7 +1,7 @@
 /*
 Write a function power() which raises a number m to a power n. The function takes double value of m and 
 integer value of n and returns the result. Use a default value of n is 2 to make the function to calculate
-squares when this argument is ommited.
+squares when this argument is omitted.
 */
 
 #include <iostream>
