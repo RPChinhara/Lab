@@ -38,7 +38,7 @@ public:
 
 int main()
 {
-    Power(3);
+    Power(3, 5);
 
     return 0;
 }
