@@ -3,9 +3,14 @@
 #include <iostream>
 using namespace std;
 
+// A class named Power that contains all the neccesary functions
+
 class Power
 {
 public:
+
+    // Two constructors of the Power class that implements the concept of funtion overloading
+
     Power(int m)
     {
         const int n = 2;
@@ -19,6 +24,8 @@ public:
         display(result);
     }
 
+    // To not repeat the same code, two functions that calculate the power and display result are made.
+    
     double calcPower(int m, int n)
     {
         double result=1;
