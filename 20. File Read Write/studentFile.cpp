@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    string name;
+    char name[20];
     int marks, no_of_students;
     
     cout<<"Enter the number of students: ";

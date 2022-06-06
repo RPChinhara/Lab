@@ -1,9 +1,9 @@
 
-Name: øþa 
-Marks=90 
+Name: rudra 
+Marks=12 
 
-Name: øþa 
-Marks=96 
+Name: rishi 
+Marks=13 
 
-Name: øþa 
-Marks=89 
+Name: suyash 
+Marks=10 
