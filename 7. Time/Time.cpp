@@ -6,7 +6,7 @@ using namespace std;
 class Time
 {
 private:
-    int hours, minutes; 
+    int hours, minutes;
 
 public:
     void input(int h, int min)
@@ -19,7 +19,7 @@ public:
 
     void display()
     {
-        cout<<"Time: "<<hours<<":"<<minutes<<endl;
+        cout << "Time: " << hours << ":" << minutes << endl;
     }
 };
 

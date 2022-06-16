@@ -8,17 +8,17 @@ class A
 public:
     A()
     {
-        cout<<"This is constructor A\n";
+        cout << "This is constructor A\n";
     }
 };
 
-class B: public A
+class B : public A
 {
 public:
     B()
     {
-        cout<<"This is constructor B\n";
-    }    
+        cout << "This is constructor B\n";
+    }
 };
 
 class C
@@ -26,16 +26,16 @@ class C
 public:
     void display()
     {
-        cout<<"This is member function of C\n";
+        cout << "This is member function of C\n";
     }
 };
 
-class D: public B, public C
+class D : public B, public C
 {
 public:
     D()
     {
-        cout<<"Hybrid class D\n";
+        cout << "Hybrid class D\n";
     }
 };
 

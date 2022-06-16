@@ -19,7 +19,7 @@ public:
     {
         x = 0;
         y = 0;
-        cout<<"The variables are initialized as 0\n";
+        cout << "The variables are initialized as 0\n";
     }
 
     // Parametrized Constructor
@@ -39,8 +39,8 @@ public:
     // Display function
     void display()
     {
-        cout<<"x = "<<x<<endl;
-        cout<<"y = "<<y<<endl;
+        cout << "x = " << x << endl;
+        cout << "y = " << y << endl;
     }
 };
 

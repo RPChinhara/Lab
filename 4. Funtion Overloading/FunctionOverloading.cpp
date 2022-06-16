@@ -1,4 +1,4 @@
-// Program to show that the effect of default arguments can be alternatively achieved by overloading. 
+// Program to show that the effect of default arguments can be alternatively achieved by overloading.
 
 #include <iostream>
 using namespace std;
@@ -8,7 +8,6 @@ using namespace std;
 class Power
 {
 public:
-
     // Two constructors of the Power class that implements the concept of funtion overloading
 
     Power(int m)
@@ -25,21 +24,21 @@ public:
     }
 
     // To not repeat the same code, two functions that calculate the power and display result are made.
-    
+
     double calcPower(int m, int n)
     {
-        double result=1;
+        double result = 1;
         for (int i = 1; i <= n; i++)
         {
             result *= m;
         }
 
-        return result;        
+        return result;
     }
 
     void display(double num)
     {
-        cout<<"The result is: "<<num<<endl;
+        cout << "The result is: " << num << endl;
     }
 };
 

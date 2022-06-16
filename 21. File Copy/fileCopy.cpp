@@ -11,14 +11,14 @@ int main()
     fptr1 = (fopen("File.txt", "r"));
     if (fptr1 == NULL)
     {
-        cout<<"Cannot open file\n";
+        cout << "Cannot open file\n";
         exit(0);
     }
-    
+
     fptr2 = fopen("FileCopy.txt", "w");
     if (fptr2 == NULL)
     {
-        cout<<"Cannot open file\n";
+        cout << "Cannot open file\n";
         exit(0);
     }
 

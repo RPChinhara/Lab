@@ -17,14 +17,14 @@ public:
         while (centimeters > 99)
         {
             centimeters -= 100;
-            meters++; 
+            meters++;
         }
     }
 
     void display()
     {
-        cout<<"Meters: "<<meters<<endl;
-        cout<<"Centimeters: "<<centimeters<<endl;
+        cout << "Meters: " << meters << endl;
+        cout << "Centimeters: " << centimeters << endl;
     }
 };
 
@@ -48,8 +48,8 @@ public:
 
     void display()
     {
-        cout<<"Feet: "<<feet<<endl;
-        cout<<"Inches: "<<inches<<endl;
+        cout << "Feet: " << feet << endl;
+        cout << "Inches: " << inches << endl;
     }
 };
 
@@ -57,13 +57,13 @@ DM add_DB_to_DM(DM a, DB b)
 {
     DM result(a.meters, a.centimeters);
 
-    result.meters += 0.3048*b.feet;
-    result.centimeters += 2.54*b.inches;
+    result.meters += 0.3048 * b.feet;
+    result.centimeters += 2.54 * b.inches;
 
     while (result.centimeters > 99)
     {
         result.centimeters -= 100;
-        result.meters++; 
+        result.meters++;
     }
 
     return result;

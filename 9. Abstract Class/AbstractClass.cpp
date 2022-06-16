@@ -24,7 +24,7 @@ public:
     int no_of_sides()
     {
         return 3;
-    } 
+    }
 };
 
 class Hexagon : public Shape
@@ -33,7 +33,7 @@ public:
     int no_of_sides()
     {
         return 6;
-    } 
+    }
 };
 
 int main()
@@ -42,9 +42,9 @@ int main()
     Trapezoid trapezoid;
     Hexagon hexagon;
 
-    cout<<"Number of sides of a triangle: "<<triangle.no_of_sides()<<endl;
-    cout<<"Number of sides of a trapezoid: "<<trapezoid.no_of_sides()<<endl;
-    cout<<"Number of sides of a hexagon: "<<hexagon.no_of_sides()<<endl;
+    cout << "Number of sides of a triangle: " << triangle.no_of_sides() << endl;
+    cout << "Number of sides of a trapezoid: " << trapezoid.no_of_sides() << endl;
+    cout << "Number of sides of a hexagon: " << hexagon.no_of_sides() << endl;
 
     return 0;
 }

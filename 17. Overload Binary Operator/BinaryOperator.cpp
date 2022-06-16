@@ -24,10 +24,10 @@ public:
     // Displays Distance
     void display()
     {
-        cout<<meters<<" m "<<centimeters<<" cm"<<endl;
+        cout << meters << " m " << centimeters << " cm" << endl;
     }
 
-    Distance operator+ (Distance const &obj)
+    Distance operator+(Distance const &obj)
     {
         Distance result;
 

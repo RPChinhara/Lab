@@ -20,10 +20,10 @@ public:
         {
             ++length;
         }
-        
+
         return length;
     }
-    
+
     void store(char arr[])
     {
         size = calSize(arr);
@@ -31,7 +31,7 @@ public:
         for (int i = 0; i < size; i++)
         {
             str[i] = arr[i];
-        }   
+        }
     }
 
     void add(char arr1[], char arr2[])
@@ -58,14 +58,14 @@ public:
         {
             if (arr1[i] != arr2[i])
             {
-                cout<<"The strings are not equal\n";
+                cout << "The strings are not equal\n";
                 flag = 1;
                 break;
             }
-        } 
+        }
         if (flag == 0)
         {
-            cout<<"The strings are equal\n"; 
+            cout << "The strings are equal\n";
         }
     }
 
@@ -73,11 +73,11 @@ public:
     {
         size = calSize(arr);
 
-        for(int i = 0; i < size; i++)
+        for (int i = 0; i < size; i++)
         {
-            cout<<arr[i];
+            cout << arr[i];
         }
-        cout<<endl;
+        cout << endl;
     }
 };
 

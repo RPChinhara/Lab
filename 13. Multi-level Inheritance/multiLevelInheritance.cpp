@@ -3,27 +3,26 @@
 #include <iostream>
 using namespace std;
 
-class A 
+class A
 {
 public:
     void FunctionA()
     {
-        cout<<"This is in class A";
+        cout << "This is in class A";
     }
 };
 
 // Derived class (child)
-class Child: public A 
+class Child : public A
 {
-
 };
 
 // Derived class (grandchild)
-class GrandChild: public Child 
+class GrandChild : public Child
 {
 };
 
-int main() 
+int main()
 {
     GrandChild myObj;
     myObj.FunctionA();

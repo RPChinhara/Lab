@@ -9,7 +9,6 @@ private:
     int x, y;
 
 public:
-
     // Constructor
     Point(int a, int b)
     {
@@ -19,8 +18,8 @@ public:
 
     ~Point()
     {
-        cout<<"x: "<<x<<endl;
-        cout<<"y: "<<y<<endl;
+        cout << "x: " << x << endl;
+        cout << "y: " << y << endl;
     }
 };
 

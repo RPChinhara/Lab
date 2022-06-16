@@ -3,34 +3,35 @@
 #include <iostream>
 using namespace std;
 
-class Shape 
+class Shape
 {
 public:
 	virtual void calculate()
 	{
-		cout<<"Area of your Shape ";
+		cout << "Area of your Shape ";
 	}
 };
 
-class Rectangle : public Shape 
+class Rectangle : public Shape
 {
 public:
 	int width, height, area;
 
 	void calculate()
 	{
-		cout<<"Enter Width of Rectangle: ";
-		cin>>width;
+		cout << "Enter Width of Rectangle: ";
+		cin >> width;
 
-		cout<<"Enter Height of Rectangle: ";
-		cin>>height;
+		cout << "Enter Height of Rectangle: ";
+		cin >> height;
 
 		area = height * width;
 		cout << "Area of Rectangle: " << area << "\n";
 	}
 };
 
-class Square : public Shape {
+class Square : public Shape
+{
 public:
 	int side, area;
 
@@ -45,11 +46,11 @@ public:
 };
 
 int main()
-{	
-    Rectangle r;
+{
+	Rectangle r;
 	r.calculate();
-	
-    Square sq;
+
+	Square sq;
 	sq.calculate();
 
 	return 0;

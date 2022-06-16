@@ -24,14 +24,14 @@ public:
     // Displays Distance
     void display()
     {
-        cout<<meters<<" m "<<centimeters<<" cm"<<endl;
+        cout << meters << " m " << centimeters << " cm" << endl;
     }
 
-    Distance operator- ()
+    Distance operator-()
     {
         meters = -meters;
         centimeters = -centimeters;
-        
+
         return Distance(meters, centimeters);
     }
 };

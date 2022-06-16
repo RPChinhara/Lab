@@ -8,25 +8,25 @@ int main()
 {
     char name[20];
     int marks, no_of_students;
-    
-    cout<<"Enter the number of students: ";
-    cin>>no_of_students;
+
+    cout << "Enter the number of students: ";
+    cin >> no_of_students;
 
     FILE *fptr;
     fptr = (fopen("student.txt", "w"));
 
-    if(fptr == NULL)
+    if (fptr == NULL)
     {
-        cout<<"Error";
+        cout << "Error";
         exit(1);
     }
 
     for (int i = 0; i < no_of_students; i++)
     {
-        cout<<"For student "<<i+1<<"\nEnter name: ";
-        cin>>name;
-        cout<<"\nEnter marks: ";
-        cin>>marks;
+        cout << "For student " << i + 1 << "\nEnter name: ";
+        cin >> name;
+        cout << "\nEnter marks: ";
+        cin >> marks;
         fprintf(fptr, "\nName: %s \nMarks=%d \n", name, marks);
     }
 
